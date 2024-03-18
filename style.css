@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 100%, rgba(9,9,121,1) 100%, rgba(0,212,255,1) 100%); ;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+main{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+   
+}
+.sub-header{
+    text-align: center;
+    margin-bottom: 30px;
+}
+h1,h3{
+    color: black;
+}
+h1{
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: 800;
+}
+section{
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    
+}
+h3{
+    font-size: 15px;
+    letter-spacing: 0px;
+    font-weight: 500;
+}
+.profiles{
+    display: flex;
+    gap: 50px;
+}
+.profiles img{
+    height: 90px;
+    width: 90px;
+    border-radius: 45px;
+    cursor: pointer;
+}
+h6,a{
+    text-align: center;
+    margin-top: 10px;
+}
+h6{
+    font-size:13px;
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 400px;
+}
+.profile1{
+    text-align: center;
+}
+.profile2{
+    text-align: center;
+}
+.profile3{
+    text-align: center;
+}
+.profile4{
+    text-align: center;
+}
+.profile5{
+    text-align: center;
+}
+@media (max-width: 600px) {
+    .profiles{
+        display: grid;
+        gap: px;
+    }
+    h1{
+        font-size: 20px;
+        letter-spacing: 1px;
+        font-weight: 700;
+    }
+    h3{
+        font-size: 13px;
+        /* letter-spacing: 0px; */
+        font-weight: 400;
+    }
+    .profile1{
+        /* background: green; */
+        padding: 10px;
+        border-radius: 5px;
+        height: 100%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    .profile1:hover{
+        background-color: black;
+        color: white;
+    }
+    .profile2{
+        /* background: green; */
+        padding: 5px;
+        border-radius: 10px;
+        height: 100%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    .profile2:hover{
+        background-color: black;
+        color: white;
+    }
+    .profile3{
+        /* background: green; */
+        padding: 5px;
+        border-radius: 10px;
+        height: 100%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    .profile3:hover{
+        background-color: black;
+        color: white;
+    }
+    .profile4{
+        /* background: green; */
+        padding: 10px;
+        border-radius: 5px;
+        height: 100%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    .profile4:hover{
+        background-color: black;
+        color: white;
+    }
+    .profile5{
+        /* background: green; */
+        padding: 10px;
+        border-radius: 5px;
+        height: 100%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    .profile5:hover{
+        background-color: black;
+        color: white;
+    }
+}
